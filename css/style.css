@@ -169,6 +169,11 @@
     color: var(--bs-dark) !important;
 }
 
+.sticky-top.navbar-light .text-light {
+    padding: 20px 15px;
+    color: #000000 !important;
+}
+
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
     color: var(--bs-white) !important;
@@ -885,7 +890,7 @@
 
 /*** Tour Booking Start ***/
 .booking {
-    background: linear-gradient(rgba(19, 53, 123, .8), rgba(19, 53, 123, .8)), url(../img/tour-booking-bg.jpg);
+    background: linear-gradient(rgba(6, 53, 22, 0.689), rgba(6, 53, 22, 0.689)), url(../img/tour-booking-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
