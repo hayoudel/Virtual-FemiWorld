@@ -173,6 +173,11 @@
     
 }
 
+.sticky-top.navbar-light .text-light {
+    padding: 20px 15px;
+    color: #000000 !important;
+}
+
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
     color: var(--bs-white) !important;
@@ -420,6 +425,18 @@
 }
 
 .bg-breadcrumb-se .breadcrumb-item a {
+    color: var(--bs-secondary) !important;
+}
+.bg-breadcrumb-fo {
+    background:  linear-gradient(rgba(59, 59, 61, 0.6), rgba(146, 147, 148, 0.6)),url(../img/beautiful-women-friends-spending-time-together.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 350px 0 50px 0;
+}
+
+.bg-breadcrumb-fo .breadcrumb-item a {
     color: var(--bs-secondary) !important;
 }
 /* Single Page Hero Header End */
