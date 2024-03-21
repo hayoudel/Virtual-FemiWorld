@@ -607,9 +607,9 @@
 
 .packages .packages-item .packages-img .packages-price {
     position: absolute;
-    width: 100px; 
+    width: 150px; 
     top: 0; 
-    left: 50%; 
+    left: 50%;
     transform: translateX(-50%);
     display: inline-block;
     background: var(--bs-primary);
