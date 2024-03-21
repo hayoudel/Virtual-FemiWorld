@@ -439,6 +439,19 @@
 .bg-breadcrumb-fo .breadcrumb-item a {
     color: var(--bs-secondary) !important;
 }
+.img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Assure que la div occupe toute la hauteur disponible */
+}
+.img1 img{
+    width: 407px;
+    height: 370px;
+}
+.rest{
+    padding-bottom: 70px;
+}
 /* Single Page Hero Header End */
 
 
@@ -619,9 +632,9 @@
 
 .packages .packages-item .packages-img .packages-price {
     position: absolute;
-    width: 100px; 
+    width: 150px; 
     top: 0; 
-    left: 50%; 
+    left: 50%;
     transform: translateX(-50%);
     display: inline-block;
     background: var(--bs-primary);
